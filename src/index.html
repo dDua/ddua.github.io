@@ -32,35 +32,35 @@
                         </table>
                         <table>
                         <tr><td><b>Office:</b>&nbsp;</td><td>4059 Donald Bren Hall, Irvine, California, 92617</td>
-                            
+
                         </tr>
                         <tr><td><b>Email:</b>&nbsp;</td><td>ddua (at) cs (dot) uci (dot) edu</td></tr>
                         </table>
 
-                        <a href="static/DheeruDua.pdf" target="_blank">[Curriculum Vitae]</a>&nbsp;&nbsp;
+                        <a href="static/DheeruDua_Resume.pdf" target="_blank">[Curriculum Vitae]</a>&nbsp;&nbsp;
                         <a href="https://scholar.google.com/citations?user=RDky42sAAAAJ&amp;hl=en&amp;oi=sra" target="_blank">[Google Scholar]</a>
                 </div>
         </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-                <a class="navbar-brand" href="index.html">About Me</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<!--            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">-->
+<!--                <a class="navbar-brand" href="index.html">About Me</a>-->
+<!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
 
-                <div class="collapse navbar-collapse" id="content">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#res_exp">Research Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#prof_exp">Professional Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pub">Publications</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+<!--                <div class="collapse navbar-collapse" id="content">-->
+<!--                    <ul class="navbar-nav mr-auto">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#res_exp">Research Experience</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#prof_exp">Professional Experience</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#pub">Publications</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
         </div>
 
         <br/>
@@ -75,7 +75,20 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
                     <p>
-                    I am a first year PhD student in the Computer Science Department at University of California, Irvine. I am advised by <a href="http://sameersingh.org/">Dr. Sameer Singh</a>. My research interests include extracting semantic representations from natural language to improve reasoning in machines.
+                        I am a second year PhD student in the Computer Science Department at University of California, Irvine. I am advised by <a href="http://sameersingh.org/">Dr. Sameer Singh</a>.
+                        My broad research interests include extracting semantic representations from natural language to improve reasoning in machines. My current research focuses on
+                        two problems in reading comprehension.
+                        <ul>
+                            <li>
+                                Finding the right balance (in terms of number of instances, type of instances and granularity of representation) of supervision required by complex reasoning based reading comprehension datasets that
+                                often require making latent decisions as they learn from weak supervision via denotations.
+                            </li>
+                            <li>
+                                Leveraging multiple reading comprehension datasets to learn a unified model that can understand various natural language artifacts like predicate-argument structure,
+                                coreference resolution, common-sense reasoning, simple arithmetic operations etc.
+                            </li>
+                        </ul>
+
                     </p>
                 </div>
             </div>
@@ -83,49 +96,7 @@
 
         <br/>
 
-        <div id="res_exp" class="container" align="justify">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
-                    <h4>Research Experience</h4>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <ul style="list-style-type:circle">
-                  <li>Worked on the NTCIR Question Answering task as a part of my Master's thesis and experimented with various components, some of which are listed below.</li>
-                    <ul>
-                      <li>Wikipedia link graph, which was used to continually search and retrieve relevant documents to answer the questions.</li>
-                      <li>Markov Logic Networks, which was used to build a sequence of events and use link-prediction for answering timeline based questions and as an event and entity graph for lookup.</li>
-                      <li>A UIMA based workflow which wrapped all the components.</li>
-                    </ul>
-                  <li>Performed relation classification using distantly-supervised MultiR algorithm with features extracted by doing random walks on the Freebase graph. Achieved better results over state of the art systems at sentential and aggregate predictions.</li>
-                  <li>Built an event extraction system using passive- agressive conditional random fields for TAC KBP 2015.</li>
-                  <li>Used reinforcement learning approaches, DQN with MCTS guided policy for abstractive document summarization</li>
-                </ul>
-            </div>
-        </div>
-
-        <br/>
-
-        <div id="prof_exp" class="container" align="justify">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
-                    <h4>Professional Experience</h4>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row">
-                <ul style="list-style-type:circle">
-                  <li>Performed entity coreference and subsequent conflation of sports atheletes from structured and unstructured data. This served as knowledge graph for Bing search engine.</li>
-                  <li>Developed a web-service which provided various utilities like image comparison (using pHash, RMSE, Template matching algorithms), and orientation difference between two rotated images (using canny's edge detection algorithm). These utilities were exposed using REST APIs so that tests can be performed from any iphone client.</li>
-                </ul>
-            </div>
-        </div>
-
-        <br/>
-
-        <div id="pub" class="container" align="justify">
+      <div id="pub" class="container" align="justify">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
                     <h4>Publications</h4>
@@ -144,9 +115,58 @@
                     PoMo: Generating Entity-Specific Post-Modifiers in Context. [<a href="https://arxiv.org/pdf/1904.03111.pdf">pdf</a>]</br>
                     North American Conference of Computational Linguistics (NAACL). 2019
                 </li>
+                <li>
+                    D. Dua, A. Gottumukkala, A. Talmor, M. Gardner, S. Singh. </br>
+                    ORB: An Open Reading Benchmark for Comprehensive Multi-Dataset Evaluation of Reading Comprehension. [<a href="http://sameersingh.org/files/papers/orb-mrqa19.pdf">pdf</a>] </br>
+                    Workshop on Machine Reading and Question Answering (MRQA). 2019
+                </li>
             </ul>
             </div>
         </div>
+
+        <div id="res_exp" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Masters Projects</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <ul style="list-style-type:circle">
+                  <li>Performed relation classification using distantly-supervised MultiR algorithm with features extracted by doing random walks on the Freebase graph. Achieved better results over state of the art systems at sentential and aggregate predictions.</li>
+                  <li>Built an event extraction system using passive- agressive conditional random fields for TAC KBP 2015.</li>
+                  <li>Used reinforcement learning approaches, DQN with MCTS guided policy for abstractive document summarization</li>
+                  <li>Worked on the NTCIR Question Answering task as a part of my Master's thesis and experimented with various components, some of which are listed below.</li>
+                    <ul>
+                      <li>Wikipedia link graph, which was used to continually search and retrieve relevant documents to answer the questions.</li>
+                      <li>Markov Logic Networks, which was used to build a sequence of events and use link-prediction for answering timeline based questions and as an event and entity graph for lookup.</li>
+                      <li>A UIMA based workflow which wrapped all the components.</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="prof_exp" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Company Projects</h4>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul style="list-style-type:circle">
+                    <li>Designed and developed a torch-based framework for fast development and deployment of neural network models into production.</li>
+                    <li>Used Bing's knowledge graph to surface information cards about various frequently queried entities</li>
+                    <li>Developed an integration test framework which performed various image comparison techniques (using pHash, RMSE, Template matching algorithms) to test
+                    information cards deployed in production</li>
+                </ul>
+            </div>
+        </div>
+
+        <br/>
 
         <br/>
 
@@ -158,18 +178,18 @@
             </div>
 
             <div class="row">
-                <table> 
+                <table style="table-layout: fixed">
                   <tr>
-                    <td align="center"><b>PhD(CS)</td>
-                    <td align="center"><b>MS(LTI)</td>
-                    <td align="center"><b>B.Tech(CS)</td>
-                    <td align="center"><b>High School</td>
+                      <td style="text-align: center;width: 25%"><b>PhD(CS)</b></td>
+                    <td style="text-align: center;width: 25%"><b>MS(LTI)</b></td>
+                    <td style="text-align: center;width: 25%"><b>B.Tech(CS)</b></td>
+                    <td style="text-align: center;width: 25%"><b>High School</b></td>
                   </tr>
                   <tr>
-                    <td><a href="http://www.ics.uci.edu/"><img src="static/uci.png" class="img-responsive" style="width:90%; "></a></td>
-                    <td><a href="https://www.cmu.edu/"><img src="static/cmu.png" class="img-responsive" style="width:90%;"></a></td>
-                    <td><a href="https://www.igdtuw.ac.in/"><img src="static/igit.jpg" class="img-responsive" style="width:90%;"></a></td>
-                    <td><a href="http://website.dpsfsis.com/"><img src="static/dps.png" class="img-responsive" style="width:90%;"></a></td>
+                    <td style="text-align: center;width: 25%"><a href="http://www.ics.uci.edu/"><img src="static/uci.png" class="img-responsive" style="width:80%; "></a></td>
+                    <td style="text-align: center;width: 25%"><a href="https://www.cmu.edu/"><img src="static/cmu.png" class="img-responsive" style="width:60%;"></a></td>
+                    <td style="text-align: center;width: 25%"><a href="https://www.igdtuw.ac.in/"><img src="static/igit.jpg" class="img-responsive" style="width:50%;"></a></td>
+                    <td style="text-align: center;width: 25%"><a href="http://website.dpsfsis.com/"><img src="static/dps.png" class="img-responsive" style="width:40%;"></a></td>
                   </tr>
                 </table>
             </div>
